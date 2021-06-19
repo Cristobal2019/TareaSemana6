@@ -1,0 +1,100 @@
+*,
+::after,
+::before{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 + p {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(40, 6, 134);
+}
+
+.contenedor{
+padding: 80px 0px;
+max-width: 1000px;
+width: 90%;
+margin: auto;
+overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background: #ff5f6d; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5f6d, #ffc371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.menu-header{
+    cursor: pointer;
+    position: fixed;
+    top:20px;
+    right: 20px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0,0.5);
+}
+
+.menu-header img{
+    width: 50%;
+}
+
+.precios h3 {
+    box-shadow: 0px 0px 20px rgb(0, 0, 0,0.5);
+    font-size: 30px;
+    text-transform:uppercase;
+    color: rgb(40, 6, 134);
+    font-weight: bold;
+}
+.Precios-tabla{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+  text-align: center;
+
+}
+.tabla{
+    position: relative;
+    width: 300px;
+    overflow: hidden; 
+   text-align: center;
+   margin: 10px 0px; 
+   box-shadow: 0px 0px 20px rgb(0, 0, 0,0.5);
+   border: 1px solid #000;
+}
+.tabla h5{
+ font-size: 20px;
+ text-transform:uppercase;
+ margin-bottom: 10px;
+ text-decoration: underline;
+ border: 1px solid #000;
+ font-weight: bold;
+}
+.tabla p{
+    margin-bottom: 20px;
+    color: rgb(40, 6, 134); 
+
+}
+
+.tabla span{
+    color: red;
+    font-weight: bold;
+}
